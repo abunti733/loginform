@@ -1,0 +1,68 @@
+body{
+	background:crimson;
+}
+
+.mainform{
+	width:800px;
+	height:400px;
+	margin:200px auto;
+	background:white;
+	position:relative;
+}
+
+.mainform .left-side{
+	position:absolute;
+	width:50%;
+	height:100%;
+	background:red;
+}
+.mainform .right-side{
+	position:absolute;
+	width:50%;
+	height:100%;
+	background:orange;
+	right:0;
+}
+.container{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.loginform{
+	background:#fff;
+	width:50%;
+	height:70%;
+	padding:20px;
+	margin:30px auto;
+	text-align:center;
+	border-radius:20px;
+	box-shadow:0px 4px 15px rgba(0,0,0,0.5);
+	
+}
+
+.loginform .icon{
+	padding:10px;
+	font-size:20px;
+}
+
+
+.loginform input{
+	padding-left:5px;
+	margin:8px 0;
+	height:30px;
+	width:90%;
+	
+	
+	
+}
+
+.loginform .loginformBtn{
+	
+	width:40%;
+	height:30px;
+	border-radius:10px;
+
+	background:crimson;
+}
